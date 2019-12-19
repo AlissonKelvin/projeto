@@ -1,3 +1,4 @@
+/* pag rodutos */
 header {
     background:#BBBBBB; /* cor de fundo do cabeçalho */
     padding: 20px 0;
@@ -85,6 +86,7 @@ footer {
     margin-top: 20px 0 0;
 }
 
+/* pag contato */
 main {
     width: 940px;
     margin: 0 auto;
@@ -93,7 +95,7 @@ main {
 form {
     margin: 40px 0;
 }
-form label, form p {
+form label, form legend {
     display: block;
     font-size:20px;
     margin: 0 0 10px;
@@ -107,4 +109,36 @@ form label, form p {
 }
 .checkbox {
     margin: 20px 0;
+}
+select {
+    width: 10%;
+}
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+.enviar:hover {
+    background: red;
+    transform: scale(1.2);
+}
+table {
+    margin: 20px 40px;
+}
+thead {
+    background: darkgray;
+    color: white;
+    font-weight: bold;
+}
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ;
 }
