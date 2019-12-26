@@ -2,6 +2,7 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+/* produtos */
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
@@ -93,7 +94,7 @@ footer {
 	font-size: 13px;
 	margin: 20px 0 0;
 }
-
+/* pag contatos */
 form {
 	margin: 40px 0;
 }
@@ -248,10 +249,29 @@ td, th {
 	h1 {
 		text-align: center;
 	}
-	nav {
+	nav{
 		position: static;
 	}
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
 	}
+	form {
+		text-align: center;
+	}
+	.input-padrao {
+		display: inline;
+	}
+	table {
+		margin: 20px auto;
+	}
+	.produtos{
+		display: -moz-inline-box;
+	}
+	.produto-descricao,.produto-preco {
+		width: auto;
+	}
+	h2 {
+		text-align: center;
+	}
+	
 }
